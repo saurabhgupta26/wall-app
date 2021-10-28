@@ -1,0 +1,56 @@
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  // overflow-x: hidden;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.container-1 {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+}
+.lighter {
+  font-weight: 200;
+}
+.bold {
+  font-weight: 500;
+}
+.bolder {
+  font-weight: 600;
+}
+
+.boldest {
+  font-weight: 700;
+}
+.px-6 {
+  padding: 0 4rem;
+}
+.py-6 {
+  padding: 4rem 0;
+}
+.bg_hero {
+  background: #010101;
+  width: 100%;
+}
+.icon_2 {
+  width: 1.3rem;
+
+}
+.input_color {
+  background: #111;
+
+}
+
+.display-grid {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 170px;
+  // grid-template-columns: repeat(auto-fit, minmax(1fr, auto));
+  // grid-template-rows: ;
+}

@@ -1,0 +1,57 @@
+{
+  "lists": [
+    "Pro Collector",
+    "Diamond Hands",
+    "Polygon King",
+    "Badge One",
+    "Badge Two",
+    "Badge One",
+    "Badge One",
+    "Badge One"
+  ],
+  "users": [
+    {
+      "name": "Cute Frock",
+      "id": "0x00345....3F42D",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac in nulla dolor proin enim metus non.",
+      "img": "/icons/user.jpeg",
+      "follow": "Following"
+    },
+    {
+      "name": "Cute Frock",
+      "id": "0x00345....3F42D",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac in nulla dolor proin enim metus non.",
+      "img": "/icons/user.jpeg",
+      "follow": "Follow"
+    },
+    {
+      "name": "Cute Frock",
+      "id": "0x00345....3F42D",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac in nulla dolor proin enim metus non.",
+      "img": "/icons/user.jpeg",
+      "follow": "Following"
+    }
+  ],
+  "images": [
+    [
+      "/icons/img1.jpg",
+      "/icons/img2.jpg",
+      "/icons/img3.jpg",
+      "/icons/img4.jpg"
+    ],
+
+    [
+      "/icons/img5.jpg",
+      "/icons/img6.jpg",
+      "/icons/img7.jpg",
+      "/icons/img1.jpg"
+    ],
+    [
+      "/icons/img2.jpg",
+      "/icons/img3.jpg",
+      "/icons/img4.jpg",
+      "/icons/img5.jpg"
+    ],
+    ["/icons/img6.jpg", "/icons/img7.jpg", "/icons/img6.jpg", "/icons/img7.jpg"]
+  ]
+}
