@@ -40,7 +40,7 @@ export default function Main() {
                   <p className="text-white px-1">{user.description}</p>
                   <div
                     className={
-                      "btn rounded-pill border-0 bg-transparent color_gradient " +
+                      "btn color_gradient text-white " +
                       (user.follow === "Follow" ? "active_follow" : "")
                     }
                   >
