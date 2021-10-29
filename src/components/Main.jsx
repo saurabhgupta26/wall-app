@@ -4,7 +4,9 @@ import data from "../assets/data.json";
 export default function Main() {
   return (
     <div className="main-bg">
-      <span className="container text-light bolder h1">People</span>
+      <div className="container">
+        <span className="text-light bolder h1">People</span>
+      </div>
       <div className="d-sm-flex justify-content-between align-items-center py-4 container overflow_hid flex-wrap">
         {data.lists.map((x) => {
           return (
@@ -37,7 +39,7 @@ export default function Main() {
                       <span className="text_id h6">{user.id}</span>
                     </div>
                   </div>
-                  <p className="text-white px-1">{user.description}</p>
+                  <p className="text-white p-1 ">{user.description}</p>
                   <div
                     className={
                       "btn color_gradient text-white " +
