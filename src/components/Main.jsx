@@ -4,12 +4,15 @@ import data from "../assets/data.json";
 export default function Main() {
   return (
     <div className="main-bg">
-      <h1 className="container text-light bolder">People</h1>
+      <span className="container text-light bolder h1">People</span>
       <div className="d-sm-flex justify-content-between align-items-center pt-4  container">
         {data.lists.map((x) => {
           return (
-            <div className="border border-secondary rounded-pill p-3 py-2 sm-width">
-              <span className="text-light bold">{x}</span>
+            <div
+              className="btn-group border border-secondary rounded-pill p-3 py-2 sm-width"
+              role="group"
+            >
+              <button className=" btn text-light bold btn_setting">{x}</button>
             </div>
           );
           // }
@@ -21,22 +24,22 @@ export default function Main() {
           <div className="shadow-sm d-block mx-3 my-5 mb-0 pb-0 w-40 rounded-lg smviewb">
             {data.users.map((user) => {
               return (
-                <div className="my-4 mt-4 border border-dark rounded-lg py-3 mb-5 height-user">
-                  <div className="d-flex justify-content-start align-items-center">
+                <div className="my-4 mt-4 border border-dark rounded-lg p-3 mb-5 height-user">
+                  <div className="d-sm-flex justify-content-start align-items-center">
                     <img
                       src={user.img}
                       alt="user"
                       className="image_users rounded-lg"
                     />
-                    <div className="d-block mx-2">
-                      <h4 className="text-white">{user.name}</h4>
-                      <h6 className="text_id">{user.id}</h6>
+                    <div className="d-sm-block mx-2">
+                      <span className="text-white h4">{user.name}</span>
+                      <span className="text_id h6">{user.id}</span>
                     </div>
                   </div>
                   <p className="text-white px-1">{user.description}</p>
                   <div
                     className={
-                      "btn rounded-pill bg-transparent color_gradient " +
+                      "btn rounded-pill border-0 bg-transparent color_gradient " +
                       (user.follow === "Follow" ? "active_follow" : "")
                     }
                   >
