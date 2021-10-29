@@ -92,17 +92,13 @@
 }
 
 .height-user {
-  height: 20rem;
-  p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+  height: 20.2rem;
 }
 .color_gradient {
   width: 16rem;
   border: 2px solid !important;
   border-image: linear-gradient(45deg, #ac32e4, #4a02fe) 1 !important ;
+  border-radius: 10px;
 
   // background: linear-gradient(to right, #ac32e4, #4a02fe);
   // background-clip: text;
@@ -133,16 +129,16 @@ span {
   color: #fff;
 }
 
-.sm-width {
-  .btn_setting:first-of-type {
-    background-color: #494949;
-    color: blue;
-  }
-   .btn_setting ~ .btn_setting {
-    background-color: transparent;
-    color: white;
-}
-}
+// .sm-width {
+//   .btn_setting:first-of-type {
+//     background-color: #494949;
+//     color: blue;
+//   }
+//    .btn_setting ~ .btn_setting {
+//     background-color: transparent;
+//     color: white;
+// }
+// }
 
 @media screen and (max-width: 375px) {
   .smviewb {
@@ -176,6 +172,15 @@ span {
   .sm-width {
     width: 80%;
     margin: 10px;
+  }
+  .height-user {
+    // height: 20rem;
+    width: 19rem;
+    p {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   }
 }
 @media screen and (max-width: 1024px) {
