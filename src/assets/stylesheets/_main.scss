@@ -129,16 +129,13 @@ span {
   color: #fff;
 }
 
-// .sm-width {
-//   .btn_setting:first-of-type {
-//     background-color: #494949;
-//     color: blue;
-//   }
-//    .btn_setting ~ .btn_setting {
-//     background-color: transparent;
-//     color: white;
-// }
-// }
+.btn-group > .btn_setting {
+  // width: 115px;
+  font-size: 12.5px;
+}
+.btn-group > .btn_setting:first-of-type {
+  color: #4a02fe;
+}
 
 @media screen and (max-width: 375px) {
   .smviewb {
