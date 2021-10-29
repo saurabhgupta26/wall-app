@@ -5,7 +5,7 @@ export default function Main() {
   return (
     <div className="main-bg">
       <span className="container text-light bolder h1">People</span>
-      <div className="d-sm-flex justify-content-between align-items-center py-4 container">
+      <div className="d-sm-flex justify-content-between align-items-center py-4 container overflow_hid flex-wrap">
         {data.lists.map((x) => {
           return (
             <div
@@ -19,7 +19,7 @@ export default function Main() {
         })}
       </div>
 
-      <div className="d-sm-flex justify-content-between align-items-start container ">
+      <div className="d-sm-flex justify-content-between align-items-start container overflow_hid">
         <div className="d-sm-block sm-margin width_user">
           <div className="shadow-sm d-sm-block mx-3 my-5 mb-0 pb-0 w-40 rounded-lg smviewb">
             {data.users.map((user) => {
