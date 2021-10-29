@@ -27,7 +27,7 @@ export default function Main() {
             {data.users.map((user) => {
               return (
                 <div className="my-4 mt-4 border border-dark rounded-lg p-3 mb-5 height-user">
-                  <div className="d-sm-flex justify-content-start align-items-center">
+                  <div className="d-flex justify-content-start align-items-center">
                     <img
                       src={user.img}
                       alt="user"
@@ -39,7 +39,7 @@ export default function Main() {
                       <span className="text_id h6">{user.id}</span>
                     </div>
                   </div>
-                  <p className="text-white p-1 ">{user.description}</p>
+                  <p className="text-white p-1 my-3 ">{user.description}</p>
                   <div
                     className={
                       "btn color_gradient text-white " +
