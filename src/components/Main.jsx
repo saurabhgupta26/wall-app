@@ -9,7 +9,7 @@ export default function Main() {
         {data.lists.map((x) => {
           return (
             <div
-              className="btn-group border border-secondary rounded-pill p-3 py-2 sm-width"
+              className="btn-group border border-secondary rounded-pill py-1 px-3 sm-width"
               role="group"
             >
               <button className=" btn text-light bold btn_setting">{x}</button>
